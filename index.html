@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="Imagens/lasanha.png" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <title>Consulta Lasanha</title>
+    </head>
+    <body>
+        <h1 class="center">Seja bem vindo ao Consulta lasanha&#128523;</h1>
+
+        <section id="info">
+            <p class="text-info">
+                <span class="bold">Como funciona:</span> Abaixo existem 3 cards para você consultar, é só escolher qual você quer consultar. Não ensinamos a fazer lasanha se quiser aprender a fazer é só seguir <a href="https://www.tudogostoso.com.br/receita/138558-lasanha-tradicional.html" title="Link para receita de Lasanha no tudo gostoso" target="_blank">esse link</a>
+            </p>
+        </section>
+    
+        <section class="cards-area">
+            <section class="card">
+                <h2>Tempo de forno</h2>
+                <p>Nesse card você descobre quanto tempo mais a sua lasanha tem que ficar no forno, levando em conta que a lasanha deve ficar 30 minutos no forno, aqui você coloca a quanto tempo sua lasanha está no forno e ele vai dizer quanto é o tempo restante.</p>
+                <input type="number" placeholder="Tempo de forno" class="input-card-one">
+                <button class="button-pattern">Consultar</button>
+            </section>
+            <section class="card">
+                <h2>Tempo de preparo</h2>
+                <p>Nesse card você descobre quanto tempo vai levar para preparar a lasanha, levando em conta que cada camada da lasanha leva 2 minuto de preparo. É só colocar quantas camadas você vai preparar</p>
+                <input type="number" placeholder="O nº de camadas" class="input-card-two">
+                <button class="button-pattern">Consultar</button>
+            </section>
+            <section class="card three">
+                <h2>Tempo total</h2>
+                <p>Nesse card você descobre o tempo total de preparo de lasanha até agora, é só informar o tempo que a lasanha está no forno e o número de camadas para a lasanha.</p>
+                <div class="area-input">
+                    <input type="number" placeholder="Tempo de forno"> 
+                    <input type="number" placeholder="O nº de camadas" class="input-card-four">
+                    <button>Consultar</button>
+                </div>
+            </section>
+        </section>
+    
+        <script src="consult.js"></script>
+
+
+        <!--Instruções
+            
+    A namorada de Lucian está a caminho de casa e ele não preparou o jantar de aniversário deles!
+
+    Neste exercício, você escreverá algum código para ajudar Lucian a cozinhar uma lasanha requintada de seu livro de receitas favorito.
+
+    Você tem quatro tarefas relacionadas ao tempo gasto cozinhando a lasanha.
+
+    Tarefa 1
+    Defina o tempo de forno esperado em minutos
+
+    Defina a EXPECTED_MINUTES_IN_OVEN constante que representa quantos minutos a lasanha deve ficar no forno. Deve ser exportado. De acordo com o livro de culinária, o tempo de forno previsto em minutos é 40.
+
+
+    Tarefa 2
+    Calcule o tempo restante do forno em minutos
+
+    Implemente a remainingMinutesInOvenfunção que leva como parâmetro os minutos reais que a lasanha está no forno e retorna quantos minutos a lasanha ainda precisa permanecer no forno, com base no tempo de forno esperado em minutos da tarefa anterior.
+
+    remainingMinutesInOven(30);
+    // => 10
+
+
+    Tarefa 3
+    Calcular o tempo de preparação em minutos
+
+    Implemente a preparationTimeInMinutes função que pega o número de camadas que você adicionou à lasanha como parâmetro e retorna quantos minutos você gastou preparando a lasanha, supondo que cada camada leve 2 minutos para preparar.
+
+    preparationTimeInMinutes(2);
+    // => 4
+
+
+    Tarefa 4
+    Calcular o tempo total de trabalho em minutos
+
+    Implemente a totalTimeInMinutesfunção que recebe dois parâmetros : o numberOfLayersparâmetro é o número de camadas que você adicionou à lasanha e o actualMinutesInOvenparâmetro é o número de minutos que a lasanha está no forno. A função deve retornar quantos minutos no total você trabalhou para cozinhar a lasanha, que é a soma do tempo de preparo em minutos e o tempo em minutos que a lasanha passou no forno no momento.
+
+    totalTimeInMinutes(3, 20);
+    // => 26-->
+    </body>
+</html>

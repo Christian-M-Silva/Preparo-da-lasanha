@@ -1,0 +1,98 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.center{
+    text-align: center;
+}
+
+#info{
+    background-color: lightgray;
+    margin: 2rem 1rem;
+    padding: 1rem;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+a{
+    color: crimson;
+    text-decoration: none;
+}
+
+.cards-area{
+    display: flex;
+    margin: 0 1rem;
+    gap: 0 5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 223px;
+    border-radius: 9px;
+    background-color: #f3ecec;
+    padding: .8rem .8rem 4.5rem;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.card h2{
+    text-align: center;
+    margin-bottom: .5rem;
+}
+
+.card p{
+    margin-bottom: 1rem;
+}
+
+/*
+Os inputs estão com problemas na responsividade ajeitar isso.
+*/
+
+input{
+    width: 7rem;
+    padding: .3rem;
+    margin-bottom: .2rem;
+}
+
+.input-card-one, .input-card-two{
+    position: absolute;
+    bottom: 15px;
+   
+}
+
+.area-input{
+    position: absolute;
+    bottom: 15px;
+}
+
+.input-card-four{
+    display: block;
+}
+
+button{
+    background-color: #aa91d6;
+    border: none;
+    border-radius: 5px;
+    padding: .5rem;
+    cursor: pointer;
+}
+
+.button-pattern{
+    position: absolute;
+    bottom: 17px;
+    left: 149px;
+}
+
+@media screen and (max-width: 955px){
+    .three{
+        padding-bottom: 109px;
+    }
+}
