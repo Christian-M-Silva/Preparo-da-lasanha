@@ -13,32 +13,39 @@
 
         <section id="info">
             <p class="text-info">
-                <span class="bold">Como funciona:</span> Abaixo existem 3 cards para você consultar, é só escolher qual você quer consultar. Não ensinamos a fazer lasanha se quiser aprender a fazer é só seguir <a href="https://www.tudogostoso.com.br/receita/138558-lasanha-tradicional.html" title="Link para receita de Lasanha no tudo gostoso" target="_blank">esse link</a>
+                <span class="bold">Como funciona:</span> Abaixo existem 3 cards para você consultar, é só escolher qual você quer consultar. Não ensinamos a fazer lasanha se quiser aprender a fazer é só seguir <a href="https://www.tudogostoso.com.br/receita/138558-lasanha-tradicional.html" title="Link para receita de Lasanha no tudo gostoso" target="_blank">esse link</a>. Lembrando que só trabalhamos com medidas de tempo em <span class="bold">minutos</span>
             </p>
         </section>
     
         <section class="cards-area">
             <section class="card">
                 <h2>Tempo de forno</h2>
-                <p>Nesse card você descobre quanto tempo mais a sua lasanha tem que ficar no forno, levando em conta que a lasanha deve ficar 30 minutos no forno, aqui você coloca a quanto tempo sua lasanha está no forno e ele vai dizer quanto é o tempo restante.</p>
-                <input type="number" placeholder="Tempo de forno" class="input-card-one">
-                <button class="button-pattern">Consultar</button>
+                <p>Nesse card você descobre quanto tempo mais a sua lasanha tem que ficar no forno, levando em conta que a lasanha deve ficar 30 minutos no forno, aqui você coloca a quantos minutos sua lasanha está no forno e ele vai dizer quanto é o tempo restante.</p>
+                <form action="">
+                    <input type="number" placeholder="Tempo de forno" class="input-card-one" required>
+                    <button class="button-pattern" onclick="ovenTime()">Consultar</button>
+                </form>
             </section>
+
             <section class="card">
                 <h2>Tempo de preparo</h2>
-                <p>Nesse card você descobre quanto tempo vai levar para preparar a lasanha, levando em conta que cada camada da lasanha leva 2 minuto de preparo. É só colocar quantas camadas você vai preparar</p>
-                <input type="number" placeholder="O nº de camadas" class="input-card-two">
-                <button class="button-pattern">Consultar</button>
+                <p>Nesse card você descobre quanto tempo vai levar para preparar a lasanha, levando em conta que cada camada da lasanha leva 2 minuto de preparo. É só colocar quantas camadas você vai preparar.</p>
+                <form>
+                    <input type="number" placeholder="O nº de camadas" class="input-card-two" required>
+                    <button class="button-pattern" onclick="LayerNumber()">Consultar</button>
+                </form>
             </section>
+
             <section class="card three">
                 <h2>Tempo total</h2>
-                <p>Nesse card você descobre o tempo total de preparo de lasanha até agora, é só informar o tempo que a lasanha está no forno e o número de camadas para a lasanha.</p>
-                <div class="area-input">
-                    <input type="number" placeholder="Tempo de forno"> 
-                    <input type="number" placeholder="O nº de camadas" class="input-card-four">
-                    <button>Consultar</button>
-                </div>
+                <p>Nesse card você descobre o tempo total de preparo de lasanha até agora, é só informar a quantos minutos sua lasanha está no forno e o número de camadas para a lasanha.</p>
+                <form class="area-input">
+                    <input type="number" placeholder="Tempo de forno" required> 
+                    <input type="number" placeholder="O nº de camadas" class="input-card-four" required>
+                    <button onclick="totalTime()">Consultar</button>
+                </form>
             </section>
+
         </section>
     
         <script src="consult.js"></script>
