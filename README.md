@@ -22,11 +22,11 @@ See a preview of the site in the Screenshot folder
 
 ## Solution Video
 
-[Solução em vídeo do preparo de lasanha](https://www.instagram.com/apredizti/)
+[Solução em vídeo do preparo de lasanha](https://youtu.be/2lzWmOdDSbI)
 
 ## Solution Link
 
-[Preparo da Lasanha](https://youtu.be/2lzWmOdDSbI)
+[Preparo da Lasanha](https://christian-m-silva.github.io/Preparo-da-lasanha/)
 
 ## My process
 
