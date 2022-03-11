@@ -22,11 +22,11 @@ See a preview of the site in the Screenshot folder
 
 ## Solution Video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2lzWmOdDSbI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[Solução em vídeo do preparo de lasanha](https://www.instagram.com/apredizti/)
 
 ## Solution Link
 
-[@Preparo da Lasanha](https://christian-m-silva.github.io/Preparo-da-lasanha/)
+[Preparo da Lasanha](https://youtu.be/2lzWmOdDSbI)
 
 ## My process
 
